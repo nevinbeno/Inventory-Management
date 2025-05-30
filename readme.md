@@ -3,31 +3,31 @@
 ## **Overview**
 This C program is an inventory management system designed to track stock levels for a small market or store. It allows users to record sales transactions and automatically updates inventory levels, providing alerts when items fall below a predefined minimum threshold.
 ____
-## **Features**
-1. **Inventory Tracking :** 
+## **🚀Features**
+1. **📊Inventory Tracking :** 
 - Tracks 5 predefined items with their codes, names, and quantities
 - Predefined items include: Soap, Blade, Candles, Books, and Pop
-2. **Sales Processing :** 
+2. **💸Sales Processing :** 
 - Allows entering multiple items purchased in a single transaction
 - Validates item codes and quantities
 - Prevents sales that would exceed current stock levels
-3. **Alert System :**
+3. **⚠️Alert System :**
 - Automatically checks stock levels after each transaction
 - Alerts when any item falls below the minimum threshold (20 units)
-4. **Data Persistance :** 
+4. **💾Data Persistance :** 
 - Saves updated inventory information to a text file ("Inventory_market_Product_analysis.txt")
 - File includes item codes, names, and remaining quantities
-5. **User - Friendly Interface**
+5. **👨‍💻User - Friendly Interface**
 - Displays available items with their codes before each transaction
 - Provides clear error messages for invalid inputs
 ----
-## **Usage Instructions**
-### **Requirements**
+## **🛠️Usage Instructions**
+### **📋Requirements**
 - GCC compiler (`gcc --version` to verify).
 - A terminal (Linux/macOS or Windows WSL).
 - Visual Studio Code text editor (optional).
 
-### **Installation & Usage**
+### **⚡Installation & Usage**
 ```bash
 git clone https://github.com/nevinbeno/Inventory-Management.git #clone repository
 cd Inventory-Management
@@ -44,7 +44,7 @@ gcc Inventory_market.c
 ./Inventory_market
 ```
 ---
-### **Using Visual Studio Code (Alternative way)**
+### **🖥️Using Visual Studio Code (Alternative way)**
 1. **Open integrated terminal in Visual Studio Code.**
 2. **Compile**
 ```bash
@@ -62,7 +62,7 @@ gcc Inventory_market.c
 ~ Enter the quantity purchased.
 ~ The program will validate all inputs.
 ----
-### **Viewing Results :**
+### **🔍Viewing Results :**
 - After each transaction, the program will:
 ~ Display any low-stock alerts
 ~ Update the inventory text file
@@ -72,7 +72,7 @@ gcc Inventory_market.c
 - After each transaction, choose to:
 ~ Continue (enter any number except 1)
 ~ Exit (enter 1)
-### **Error Handling : **
+### **❌ Error Handling :**
 - The program includes validation for:
 ~ Number of distinct items purchased (must be between 1-5)
 ~ Item codes (must match predefined items)
